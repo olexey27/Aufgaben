@@ -34,9 +34,8 @@ function aufgabe3() {
     let willkommen = ["Hallo", "Tschuess", "Mittag", "Planet", "Welt!"]
 
     //ToDo: füge ab hier Deinen Code ein
-    let first = willkommen [0]
-    let last = willkommen [4]
-    console.debug(first, last)
+
+    console.debug(willkommen[0], willkommen[4])
 }
 
 /**
