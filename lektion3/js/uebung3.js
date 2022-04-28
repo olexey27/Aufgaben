@@ -51,10 +51,32 @@ function aufgabe3() {
         hobby: "pumper",
         taetigkeit: "Fitnessmodel"
     }
-
     for (let key of Object.keys(kuenstler)) {
         console.debug(key + ": " + kuenstler[key])
     }
+}
+
+/**
+ * Bonus)
+ */
+function Bonus() {
+    console.debug("Aufgabe Bonus ========================")
+
+    //ToDo: füge ab hier Deinen Code ein
+    let lebenslauf = {
+        vorname: "Alexey",
+        nachname: "Krasnokutskiy",
+        email: "allxyog@gmail.com",
+        telefon: +491605702333,
+        geburtsdatum: 1998,
+        geburtsort: "Isilkul",
+    }
+    for (let key of Object.keys(lebenslauf)) {
+        console.debug(key + ": " + lebenslauf[key])
+    }
+    console.debug(Object.keys(lebenslauf))
+    console.debug(Object.values(lebenslauf))
+    console.debug(Object.entries(lebenslauf))
 }
 
 /**
@@ -64,6 +86,7 @@ function main() {
     aufgabe1()
     aufgabe2()
     aufgabe3()
+    Bonus()
 }
 
 main()
