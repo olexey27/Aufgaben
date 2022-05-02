@@ -12,7 +12,7 @@ function artikel_Gekauft() {
     let artikelGekauft = true
     console.debug("Artikel kaufen:")
     if(artikelGekauft == true) {
-        console.debug("[Artikel] " + artikelName + " wurde gekauft " )
+        console.debug("[Artikel] \"" +artikelName+ "\" wurde gekauft")
     }
 }
 
@@ -28,7 +28,7 @@ function artikel_Hinzufuegen() {
     let artikelName = "Quinoa"
     console.debug("Artikel Hinzufügt:")
     if (artikelName !== "") {
-        console.debug([gruppenName], artikelName, "hinzugefügt")
+        console.debug("[gruppenName] \""+artikelName+ "\" hinzugefügt")
     }
 }
 
@@ -43,7 +43,7 @@ function gruppe_Hinzufuegen() {
     let neueGruppe = "Getränke"
     console.debug("Gruppe hinzufügen:")
     if (gleicheGruppe == "") {
-        console.debug("[Add]Gruppe", neueGruppe, "hinzugefügt")
+        console.debug("[Add]Gruppe \""+neueGruppe+ "\" hinzugefügt")
     }
 }
 
@@ -59,16 +59,16 @@ function einkaufsliste_Vorhanden() {
     switch (artikel) {
         case 1:
             "Milch"
-            console.debug("Artikel", artikel, "ist ein Milchprodukt")
+            console.debug("Artikel \""+artikel+ "\" ist ein Milchprodukt")
         case 2:
             "Sahne"
-            console.debug("Artikel", artikel, "ist ein Milchprodukt")
+            console.debug("Artikel \""+artikel+ "\" ist ein Milchprodukt")
         case 3:
             "Joghurt"
-            console.debug("Artikel", artikel, "ist ein Milchprodukt")
+            console.debug("Artikel \""+artikel+ "\" ist ein Milchprodukt")
             break;
         default:
-            console.debug("Artikel", artikel, "ist KEIN Milchprodukt")
+            console.debug("Artikel \""+artikel+ "\" ist KEIN Milchprodukt")
     }
 }
 
@@ -81,7 +81,7 @@ function zusatz_indexOf() {
     const einkaufsliste = ["Tofu", "Milch", "Butter", "Honig"]
     console.debug("Enthält die Einkaufsliste Tomaten?")
     if (einkaufsliste.indexOf("Tomate") == -1) {
-        console.debug("Auf der Einkaufsliste stehen Keine Tomaten")
+        console.debug("Auf der Einkaufsliste stehen Keine \"Tomaten\"")
     }
     else {
         console.debug("Auf der Einkaufsliste stehen Tomaten")
